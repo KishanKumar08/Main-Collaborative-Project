@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+.main-box{
+    position: relative;
+    max-width: 1320px;
+    margin: 3rem auto;
+}
+.box{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 20px;
+}
+.prod > .prod-img{
+    position: relative;
+}
+.prod > .prod-img > img{
+    width: 100%;
+}
+.prod > .prod-img > div:nth-child(2) {
+    background: linear-gradient(285deg, rgb(46, 164, 224), rgb(49, 198, 132));
+    color: #fff;
+    font-family: Poppins;
+    padding: 5px 10px;
+    border-radius: 3px;
+    position: absolute;
+    top: 20px;
+    left: 0;
+}
+.prod>.prod-img>div:nth-child(3){
+    position: absolute;
+    right: 8px;
+    top: 15px;
+}
+.prod-content{
+    display: flex;
+    justify-content: space-between;
+}
+.prod-content > div:first-child{
+    padding-top: 10px;
+    font-family: "Poppins", sans-serif;
+}
+.prod-content>div:first-child > p{
+    text-transform: uppercase; 
+    font-weight: 400;
+    font-size: 13px;
+}
+.prod-content>div:first-child > h2{
+    font-size: 16px;
+    font-weight: 500;
+    padding: 6px 0;
+}
+.prod-content>div:last-child{
+    padding-top: 8px;
+}
+.fixed-section{
+    position: fixed;
+    right: 20px;
+    bottom: 60px;
+}
+.fixed-section > button{
+    padding: 0px 7px;
+    border: none;
+    border-radius: 5px;
+}
+.fixed-section > button > img{
+    width: 50px;
+    height: 28px;
+}
+.fixed-section > img{
+    display: block;
+    margin-left: 10px;
+    width: 60px;
+}
